@@ -13,6 +13,12 @@ import Conversations from "./pages/dashboard/Conversations";
 import Monitoring from "./pages/dashboard/Monitoring";
 import Analytics from "./pages/dashboard/Analytics";
 import SettingsPage from "./pages/dashboard/SettingsPage";
+import TaxDashboard from "./pages/dashboard/TaxDashboard";
+import TaxEmployees from "./pages/dashboard/TaxEmployees";
+import TaxCalculator from "./pages/dashboard/TaxCalculator";
+import TaxReports from "./pages/dashboard/TaxReports";
+import TaxCompliance from "./pages/dashboard/TaxCompliance";
+import TaxSettings from "./pages/dashboard/TaxSettings";
 import NotFound from "./pages/NotFound";
 import AIMaslahatchi from "./components/AIMaslahatchi";
 
@@ -34,6 +40,12 @@ const App = () => (
             <Route path="suhbatlar" element={<Conversations />} />
             <Route path="monitoring" element={<Monitoring />} />
             <Route path="tahlillar" element={<Analytics />} />
+            <Route path="soliq" element={<TaxDashboard />} />
+            <Route path="soliq/xodimlar" element={<TaxEmployees />} />
+            <Route path="soliq/kalkulyator" element={<TaxCalculator />} />
+            <Route path="soliq/hisobotlar" element={<TaxReports />} />
+            <Route path="soliq/compliance" element={<TaxCompliance />} />
+            <Route path="soliq/sozlamalar" element={<TaxSettings />} />
             <Route path="sozlamalar" element={<SettingsPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
