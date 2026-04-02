@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation, Outlet } from "react-router-dom";
-import { Bot, Home, Users, MessageSquare, Activity, BarChart3, Settings, Menu, X, ChevronDown, Globe, Bell, Crown } from "lucide-react";
+import { Bot, Home, Users, MessageSquare, Activity, BarChart3, Settings, Menu, X, ChevronDown, Globe, Bell, Crown, Landmark } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { Badge } from "@/components/ui/badge";
