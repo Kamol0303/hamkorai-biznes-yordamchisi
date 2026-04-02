@@ -14,6 +14,7 @@ import Monitoring from "./pages/dashboard/Monitoring";
 import Analytics from "./pages/dashboard/Analytics";
 import SettingsPage from "./pages/dashboard/SettingsPage";
 import NotFound from "./pages/NotFound";
+import AIMaslahatchi from "./components/AIMaslahatchi";
 
 const queryClient = new QueryClient();
 
@@ -37,6 +38,7 @@ const App = () => (
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <AIMaslahatchi />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
