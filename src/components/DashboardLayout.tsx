@@ -11,6 +11,7 @@ const navItems = [
   { to: "/dashboard/suhbatlar", icon: MessageSquare, label: "Suhbatlar", badge: 6 },
   { to: "/dashboard/monitoring", icon: Activity, label: "Monitoring" },
   { to: "/dashboard/tahlillar", icon: BarChart3, label: "Tahlillar" },
+  { to: "/dashboard/soliq", icon: Landmark, label: "Soliq hisobotlari" },
   { to: "/dashboard/sozlamalar", icon: Settings, label: "Sozlamalar" },
 ];
 

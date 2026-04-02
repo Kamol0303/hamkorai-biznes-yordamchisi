@@ -40,6 +40,12 @@ const App = () => (
             <Route path="suhbatlar" element={<Conversations />} />
             <Route path="monitoring" element={<Monitoring />} />
             <Route path="tahlillar" element={<Analytics />} />
+            <Route path="soliq" element={<TaxDashboard />} />
+            <Route path="soliq/xodimlar" element={<TaxEmployees />} />
+            <Route path="soliq/kalkulyator" element={<TaxCalculator />} />
+            <Route path="soliq/hisobotlar" element={<TaxReports />} />
+            <Route path="soliq/compliance" element={<TaxCompliance />} />
+            <Route path="soliq/sozlamalar" element={<TaxSettings />} />
             <Route path="sozlamalar" element={<SettingsPage />} />
           </Route>
           <Route path="*" element={<NotFound />} />
