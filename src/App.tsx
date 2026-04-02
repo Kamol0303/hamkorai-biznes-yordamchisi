@@ -13,6 +13,12 @@ import Conversations from "./pages/dashboard/Conversations";
 import Monitoring from "./pages/dashboard/Monitoring";
 import Analytics from "./pages/dashboard/Analytics";
 import SettingsPage from "./pages/dashboard/SettingsPage";
+import TaxDashboard from "./pages/dashboard/TaxDashboard";
+import TaxEmployees from "./pages/dashboard/TaxEmployees";
+import TaxCalculator from "./pages/dashboard/TaxCalculator";
+import TaxReports from "./pages/dashboard/TaxReports";
+import TaxCompliance from "./pages/dashboard/TaxCompliance";
+import TaxSettings from "./pages/dashboard/TaxSettings";
 import NotFound from "./pages/NotFound";
 import AIMaslahatchi from "./components/AIMaslahatchi";
 
