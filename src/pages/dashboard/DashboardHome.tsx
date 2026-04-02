@@ -1,6 +1,8 @@
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { TrendingUp, Users, SmilePlus, AlertTriangle, Lightbulb, ArrowUpRight, ArrowDownRight } from "lucide-react";
+import { TrendingUp, Users, SmilePlus, AlertTriangle, Lightbulb, ArrowUpRight, ArrowDownRight, Sparkles } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
 import { weeklyRevenue, topProducts, sentimentTrend, aiRecommendations } from "@/data/mock";
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area, PieChart, Pie, Cell } from "recharts";
 
