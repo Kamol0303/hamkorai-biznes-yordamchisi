@@ -38,6 +38,7 @@ const App = () => (
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <AIMaslahatchi />
       </BrowserRouter>
     </TooltipProvider>
   </QueryClientProvider>
